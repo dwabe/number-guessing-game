@@ -10,6 +10,8 @@ var guessField = document.querySelector('.guessField');
 var guessCount = 1;
 var resetButton;
 
+guessField.focus();
+
 function checkGuess() {
   var userGuess = Number(guessField.value);
   if (guessCount === 1) {
